@@ -152,6 +152,91 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-搭建虚拟环境遇到的问题-一" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/05/09/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98-%E4%B8%80/">搭建虚拟环境遇到的问题(一)</a>
+    </h1>
+  
+
+        
+        <a href="/2020/05/09/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98-%E4%B8%80/" class="archive-article-date">
+  	<time datetime="2020-05-08T16:30:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-09</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>##遇到的问题<br><strong>安装好系统后开始配置网络,设置静态ip</strong><br>修改 ifcfg-eno33文件:  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts&#x2F;ifcfg-eno33</span><br></pre></td></tr></table></figure>
+
+<p>内容修改详见底部参考文章<br><strong>编辑完成后重启网络:</strong>  </p>
+<p>关闭 NetworkManger 服务就好了， service NetworkManager stop</p>
+<p><strong>出现错误提示</strong><br>Restarting network (via systemctl): Job for network.service failed because the control process exited with error code.</p>
+<p>See “systemctl status network.service” and “journalctl -xe” for details. [失败]<br><strong>我的解决方法</strong><br>猜测是和NetworkManager 服务有冲突尝试将其关闭解决问题:<br>    关闭 NetworkManger 服务就好了:<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service NetworkManager stop</span><br></pre></td></tr></table></figure><br>设置永久有效(禁止开机启动):  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">关闭 NetworkManger 服务就好了， service NetworkManager stop</span><br></pre></td></tr></table></figure>
+
+<p>此时运行<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service NetworkManager stop</span><br></pre></td></tr></table></figure><br>并且</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig</span><br></pre></td></tr></table></figure>
+<p>可查看设置好得静态ip</p>
+<h5 id="虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程"><a href="#虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程" class="headerlink" title="虚拟环境搭建参考文章: 人手一套Linux环境之：Windows版本教程"></a>虚拟环境搭建参考文章: <a href="https://mp.weixin.qq.com/s/onVwwEQ1DAwbvK7qS2YNxg" target="_blank" rel="noopener">人手一套Linux环境之：Windows版本教程</a></h5>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Linux</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/05/09/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98-%E4%B8%80/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-my-first-blog" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -395,6 +480,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">test</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">Linux</a>
               </li>
             
             <div class="clearfix"></div>
