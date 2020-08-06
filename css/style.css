@@ -5372,7 +5372,7 @@ div.hoverbox:hover >div.target {
     width: calc(100% - 112px);
   }
 }
-ul.nav-list-h li:hover >ul.list-v,
+ul.m-pc li:hover >ul.list-v,
 ul.list-v li:hover >ul.list-v {
   display: block;
 }
@@ -5399,6 +5399,9 @@ ul.list-v {
   margin-top: -6px;
   border-radius: 4px;
   padding: 8px 0;
+}
+ul.list-v.show {
+  display: block;
 }
 ul.list-v hr {
   margin-top: 8px;
