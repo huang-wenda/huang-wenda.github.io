@@ -6,7 +6,7 @@
   <link href="/nullsky/atom.xml" rel="self"/>
   
   <link href="http://wd_huang.gitee.io/nullsky/"/>
-  <updated>2020-05-07T03:47:20.241Z</updated>
+  <updated>2020-08-10T03:43:45.825Z</updated>
   <id>http://wd_huang.gitee.io/nullsky/</id>
   
   <author>
@@ -15,6 +15,102 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>内部类</title>
+    <link href="http://wd_huang.gitee.io/nullsky/2020/08/10/%E5%86%85%E9%83%A8%E7%B1%BB/"/>
+    <id>http://wd_huang.gitee.io/nullsky/2020/08/10/%E5%86%85%E9%83%A8%E7%B1%BB/</id>
+    <published>2020-08-10T03:41:11.000Z</published>
+    <updated>2020-08-10T03:43:45.825Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="内部类"><a href="#内部类" class="headerlink" title="内部类"></a>内部类</h2><h6 id="内部类可以使用外部类的变量-例如"><a href="#内部类可以使用外部类的变量-例如" class="headerlink" title="内部类可以使用外部类的变量,例如:"></a>内部类可以使用外部类的变量,例如:</h6><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Outer</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">boolean</span> flag;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Outer</span><span class="params">(<span class="keyword">boolean</span> f)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.flag = f;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Inner</span> </span>&#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">action</span><span class="params">()</span> </span>&#123;</span><br><span class="line">            <span class="keyword">if</span> (flag) &#123;</span><br><span class="line">                System.out.println(<span class="string">"I can see Outer's filed"</span>); </span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h6 id="测试"><a href="#测试" class="headerlink" title="测试:"></a>测试:</h6><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span>  <span class="title">main</span> <span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        Outer outer = <span class="keyword">new</span> Outer(<span class="keyword">true</span>);</span><br><span class="line">        <span class="keyword">new</span> Ouger.Inner inner = outer.<span class="keyword">new</span> Inner();</span><br><span class="line">        inner.action(); <span class="comment">//打印 I can see Outer's filed</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;内部类&quot;&gt;&lt;a href=&quot;#内部类&quot; class=&quot;headerlink&quot; title=&quot;内部类&quot;&gt;&lt;/a&gt;内部类&lt;/h2&gt;&lt;h6 id=&quot;内部类可以使用外部类的变量-例如&quot;&gt;&lt;a href=&quot;#内部类可以使用外部类的变量-例如&quot; class=&quot;headerli
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JAVA" scheme="http://wd_huang.gitee.io/nullsky/tags/JAVA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SSM学习_Mybatis_001</title>
+    <link href="http://wd_huang.gitee.io/nullsky/2020/08/09/SSM%E5%AD%A6%E4%B9%A0_Mybatis_001/"/>
+    <id>http://wd_huang.gitee.io/nullsky/2020/08/09/SSM%E5%AD%A6%E4%B9%A0_Mybatis_001/</id>
+    <published>2020-08-08T16:00:00.000Z</published>
+    <updated>2020-08-09T16:29:36.432Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Mybatis3"><a href="#Mybatis3" class="headerlink" title="Mybatis3"></a>Mybatis3</h1><h6 id="对于框架的认识不能只停留在使用"><a href="#对于框架的认识不能只停留在使用" class="headerlink" title="对于框架的认识不能只停留在使用"></a><u>对于框架的认识不能只停留在使用</u></h6><h4 id="环境："><a href="#环境：" class="headerlink" title="环境："></a>环境：</h4><ul><li>JDK1.8</li><li>MySQL5.7 <a href="https://www.baidu.com" target="_blank" rel="noopener">(更新5.7方法(待补充))</a></li><li>maven3.6</li><li>IDEA  </li><li>Mybatis3 <a href="https://mybatis.org/mybatis-3/zh/index.html" target="_blank" rel="noopener">(官方文档)</a></li></ul><p><a href="https://github.com/mybatis/mybatis-3" target="_blank" rel="noopener">开源地址</a></p><h4 id="引入项目"><a href="#引入项目" class="headerlink" title="引入项目:"></a>引入项目:</h4><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- https://mvnrepository.com/artifact/org.mybatis/mybatis --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.mybatis<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>mybatis<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>3.5.5<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Mybatis3&quot;&gt;&lt;a href=&quot;#Mybatis3&quot; class=&quot;headerlink&quot; title=&quot;Mybatis3&quot;&gt;&lt;/a&gt;Mybatis3&lt;/h1&gt;&lt;h6 id=&quot;对于框架的认识不能只停留在使用&quot;&gt;&lt;a href=&quot;#对于框架的认识不能只停留在使
+      
+    
+    </summary>
+    
+    
+    
+      <category term="SSM , Mybatis" scheme="http://wd_huang.gitee.io/nullsky/tags/SSM-Mybatis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建虚拟环境遇到的问题(一)</title>
+    <link href="http://wd_huang.gitee.io/nullsky/2020/05/09/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98-%E4%B8%80/"/>
+    <id>http://wd_huang.gitee.io/nullsky/2020/05/09/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98-%E4%B8%80/</id>
+    <published>2020-05-08T16:30:28.000Z</published>
+    <updated>2020-05-08T17:04:37.098Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p><strong>安装好系统后开始配置网络,设置静态ip</strong><br>修改 ifcfg-eno33文件:  </p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim <span class="regexp">/etc/</span>sysconfig<span class="regexp">/network-scripts/i</span>fcfg-eno33</span><br></pre></td></tr></table></figure><p>内容修改详见底部参考文章<br><strong>编辑完成后重启网络:</strong>  </p><p>关闭 NetworkManger 服务就好了， service NetworkManager stop</p><p><strong>出现错误提示</strong><br>Restarting network (via systemctl): Job for network.service failed because the control process exited with error code.</p><p>See “systemctl status network.service” and “journalctl -xe” for details. [失败]<br><strong>我的解决方法</strong><br>猜测是和NetworkManager 服务有冲突尝试将其关闭解决问题:<br>    关闭 NetworkManger 服务就好了:<br> <figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service NetworkManager <span class="built_in">stop</span></span><br></pre></td></tr></table></figure><br>设置永久有效(禁止开机启动):  </p><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">关闭 NetworkManger 服务就好了，<span class="built_in"> service </span>NetworkManager stop</span><br></pre></td></tr></table></figure><p>此时运行<br> <figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service NetworkManager <span class="built_in">stop</span></span><br></pre></td></tr></table></figure><br>并且</p><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">ifconfig</span></span><br></pre></td></tr></table></figure><p>可查看设置好得静态ip</p><h5 id="虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程"><a href="#虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程" class="headerlink" title="虚拟环境搭建参考文章: 人手一套Linux环境之：Windows版本教程"></a>虚拟环境搭建参考文章: <a href="https://mp.weixin.qq.com/s/onVwwEQ1DAwbvK7qS2YNxg" target="_blank" rel="noopener">人手一套Linux环境之：Windows版本教程</a></h5>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;遇到的问题&quot;&gt;&lt;a href=&quot;#遇到的问题&quot; class=&quot;headerlink&quot; title=&quot;遇到的问题&quot;&gt;&lt;/a&gt;遇到的问题&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;安装好系统后开始配置网络,设置静态ip&lt;/strong&gt;&lt;br&gt;修改 ifcfg-eno33文件: 
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Linux" scheme="http://wd_huang.gitee.io/nullsky/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>my first blog </title>
+    <link href="http://wd_huang.gitee.io/nullsky/2020/05/07/my-first-blog/"/>
+    <id>http://wd_huang.gitee.io/nullsky/2020/05/07/my-first-blog/</id>
+    <published>2020-05-07T03:56:32.000Z</published>
+    <updated>2020-05-07T05:50:48.705Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第一篇博文"><a href="#第一篇博文" class="headerlink" title="第一篇博文"></a>第一篇博文</h1><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="title">print</span><span class="params">(<span class="string">"Hello"</span>)</span></span></span><br><span class="line">System<span class="selector-class">.out</span>.println(<span class="string">"Hello"</span>)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;第一篇博文&quot;&gt;&lt;a href=&quot;#第一篇博文&quot; class=&quot;headerlink&quot; title=&quot;第一篇博文&quot;&gt;&lt;/a&gt;第一篇博文&lt;/h1&gt;&lt;figure class=&quot;highlight stylus&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter
+      
+    
+    </summary>
+    
+    
+    
+      <category term="test" scheme="http://wd_huang.gitee.io/nullsky/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
