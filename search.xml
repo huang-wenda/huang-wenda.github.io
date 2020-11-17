@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2018/09/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to Hwd’s blog.</p>
-<p>here is nothing</p>
-<p>here will anything</p>
-]]></content>
-      <categories>
-        <category>Markdown</category>
-      </categories>
-      <tags>
-        <tag>Typora</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SSM学习_Mybatis_001</title>
-    <url>/2020/08/09/ssm-xue-xi-mybatis-001/</url>
+    <url>/huang-wenda.github.io/2020/08/09/ssm-xue-xi-mybatis-001/</url>
     <content><![CDATA[<h1 id="Mybatis3"><a href="#Mybatis3" class="headerlink" title="Mybatis3"></a>Mybatis3</h1><h6 id="对于框架的认识不能只停留在使用"><a href="#对于框架的认识不能只停留在使用" class="headerlink" title="对于框架的认识不能只停留在使用"></a><u>对于框架的认识不能只停留在使用</u></h6><h4 id="环境："><a href="#环境：" class="headerlink" title="环境："></a>环境：</h4><ul>
 <li>JDK1.8</li>
 <li>MySQL5.7 <a href="https://www.baidu.com" target="_blank" rel="noopener">(更新5.7方法(待补充))</a></li>
@@ -40,8 +25,23 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/huang-wenda.github.io/2018/09/07/hello-world/</url>
+    <content><![CDATA[<p>Welcome to Hwd’s blog.</p>
+<p>here is nothing</p>
+<p>here will anything</p>
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>Typora</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>my first blog </title>
-    <url>/2020/05/07/my-first-blog/</url>
+    <url>/huang-wenda.github.io/2020/05/07/my-first-blog/</url>
     <content><![CDATA[<h1 id="第一篇博文"><a href="#第一篇博文" class="headerlink" title="第一篇博文"></a>第一篇博文</h1><pre><code>print("Hello")
 System.out.println("Hello")</code></pre>]]></content>
       <tags>
@@ -50,7 +50,7 @@ System.out.println("Hello")</code></pre>]]></content>
   </entry>
   <entry>
     <title>内部类</title>
-    <url>/2020/08/10/nei-bu-lei/</url>
+    <url>/huang-wenda.github.io/2020/08/10/nei-bu-lei/</url>
     <content><![CDATA[<h6 id="内部类可以使用外部类的变量-例如"><a href="#内部类可以使用外部类的变量-例如" class="headerlink" title="内部类可以使用外部类的变量,例如:"></a>内部类可以使用外部类的变量,例如:</h6><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Outer</span> <span class="token punctuation">{</span>
 
     <span class="token keyword">private</span> <span class="token keyword">boolean</span> flag<span class="token punctuation">;</span>
@@ -81,8 +81,16 @@ System.out.println("Hello")</code></pre>]]></content>
       </tags>
   </entry>
   <entry>
+    <title>每日java基础题</title>
+    <url>/huang-wenda.github.io/2020/08/23/mei-ri-java-ji-chu-ti/</url>
+    <content><![CDATA[<h1 id="java-专项练习题-2020-08-32"><a href="#java-专项练习题-2020-08-32" class="headerlink" title="java 专项练习题[2020-08-32]"></a>java 专项练习题[2020-08-32]</h1>]]></content>
+      <tags>
+        <tag>java专项练习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建虚拟环境遇到的问题(一)</title>
-    <url>/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/</url>
+    <url>/huang-wenda.github.io/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/</url>
     <content><![CDATA[<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p><strong>安装好系统后开始配置网络,设置静态ip</strong><br>修改 ifcfg-eno33文件:  </p>
 <pre><code>vim /etc/sysconfig/network-scripts/ifcfg-eno33</code></pre><p>内容修改详见底部参考文章<br><strong>编辑完成后重启网络:</strong>  </p>
 <p>关闭 NetworkManger 服务就好了， service NetworkManager stop</p>
@@ -95,14 +103,6 @@ System.out.println("Hello")</code></pre>]]></content>
 <h5 id="虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程"><a href="#虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程" class="headerlink" title="虚拟环境搭建参考文章: 人手一套Linux环境之：Windows版本教程"></a>虚拟环境搭建参考文章: <a href="https://mp.weixin.qq.com/s/onVwwEQ1DAwbvK7qS2YNxg" target="_blank" rel="noopener">人手一套Linux环境之：Windows版本教程</a></h5>]]></content>
       <tags>
         <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日java基础题</title>
-    <url>/2020/08/23/mei-ri-java-ji-chu-ti/</url>
-    <content><![CDATA[<h1 id="java-专项练习题-2020-08-32"><a href="#java-专项练习题-2020-08-32" class="headerlink" title="java 专项练习题[2020-08-32]"></a>java 专项练习题[2020-08-32]</h1>]]></content>
-      <tags>
-        <tag>java专项练习</tag>
       </tags>
   </entry>
 </search>
