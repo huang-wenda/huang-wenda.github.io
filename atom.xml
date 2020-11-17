@@ -5,9 +5,9 @@
   <subtitle>NullSky</subtitle>
   <link href="/nullsky/atom.xml" rel="self"/>
   
-  <link href="http://wd_huang.gitee.io/nullsky/"/>
+  <link href="https://huang-wenda.github.io/"/>
   <updated>2020-08-23T09:53:33.090Z</updated>
-  <id>http://wd_huang.gitee.io/nullsky/</id>
+  <id>https://huang-wenda.github.io/</id>
   
   <author>
     <name>Hwd</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>每日java基础题</title>
-    <link href="http://wd_huang.gitee.io/nullsky/2020/08/23/mei-ri-java-ji-chu-ti/"/>
-    <id>http://wd_huang.gitee.io/nullsky/2020/08/23/mei-ri-java-ji-chu-ti/</id>
+    <link href="https://huang-wenda.github.io/2020/08/23/mei-ri-java-ji-chu-ti/"/>
+    <id>https://huang-wenda.github.io/2020/08/23/mei-ri-java-ji-chu-ti/</id>
     <published>2020-08-23T09:50:32.000Z</published>
     <updated>2020-08-23T09:53:33.090Z</updated>
     
@@ -36,14 +36,14 @@
     
     
     
-      <category term="java专项练习" scheme="http://wd_huang.gitee.io/nullsky/tags/java%E4%B8%93%E9%A1%B9%E7%BB%83%E4%B9%A0/"/>
+      <category term="java专项练习" scheme="https://huang-wenda.github.io/tags/java%E4%B8%93%E9%A1%B9%E7%BB%83%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>内部类</title>
-    <link href="http://wd_huang.gitee.io/nullsky/2020/08/10/nei-bu-lei/"/>
-    <id>http://wd_huang.gitee.io/nullsky/2020/08/10/nei-bu-lei/</id>
+    <link href="https://huang-wenda.github.io/2020/08/10/nei-bu-lei/"/>
+    <id>https://huang-wenda.github.io/2020/08/10/nei-bu-lei/</id>
     <published>2020-08-10T03:41:11.000Z</published>
     <updated>2020-08-10T03:45:32.581Z</updated>
     
@@ -60,14 +60,14 @@
     
     
     
-      <category term="JAVA" scheme="http://wd_huang.gitee.io/nullsky/tags/JAVA/"/>
+      <category term="JAVA" scheme="https://huang-wenda.github.io/tags/JAVA/"/>
     
   </entry>
   
   <entry>
     <title>SSM学习_Mybatis_001</title>
-    <link href="http://wd_huang.gitee.io/nullsky/2020/08/09/ssm-xue-xi-mybatis-001/"/>
-    <id>http://wd_huang.gitee.io/nullsky/2020/08/09/ssm-xue-xi-mybatis-001/</id>
+    <link href="https://huang-wenda.github.io/2020/08/09/ssm-xue-xi-mybatis-001/"/>
+    <id>https://huang-wenda.github.io/2020/08/09/ssm-xue-xi-mybatis-001/</id>
     <published>2020-08-08T16:00:00.000Z</published>
     <updated>2020-08-09T16:29:36.432Z</updated>
     
@@ -84,14 +84,14 @@
     
     
     
-      <category term="SSM , Mybatis" scheme="http://wd_huang.gitee.io/nullsky/tags/SSM-Mybatis/"/>
+      <category term="SSM , Mybatis" scheme="https://huang-wenda.github.io/tags/SSM-Mybatis/"/>
     
   </entry>
   
   <entry>
     <title>搭建虚拟环境遇到的问题(一)</title>
-    <link href="http://wd_huang.gitee.io/nullsky/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/"/>
-    <id>http://wd_huang.gitee.io/nullsky/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/</id>
+    <link href="https://huang-wenda.github.io/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/"/>
+    <id>https://huang-wenda.github.io/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/</id>
     <published>2020-05-08T16:30:28.000Z</published>
     <updated>2020-05-08T17:04:37.098Z</updated>
     
@@ -108,14 +108,14 @@
     
     
     
-      <category term="Linux" scheme="http://wd_huang.gitee.io/nullsky/tags/Linux/"/>
+      <category term="Linux" scheme="https://huang-wenda.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>my first blog </title>
-    <link href="http://wd_huang.gitee.io/nullsky/2020/05/07/my-first-blog/"/>
-    <id>http://wd_huang.gitee.io/nullsky/2020/05/07/my-first-blog/</id>
+    <link href="https://huang-wenda.github.io/2020/05/07/my-first-blog/"/>
+    <id>https://huang-wenda.github.io/2020/05/07/my-first-blog/</id>
     <published>2020-05-07T03:56:32.000Z</published>
     <updated>2020-05-07T05:50:48.705Z</updated>
     
@@ -133,14 +133,14 @@ System.out.println(&quot;Hello&quot;)&lt;/code&gt;&lt;
     
     
     
-      <category term="test" scheme="http://wd_huang.gitee.io/nullsky/tags/test/"/>
+      <category term="test" scheme="https://huang-wenda.github.io/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://wd_huang.gitee.io/nullsky/2018/09/07/hello-world/"/>
-    <id>http://wd_huang.gitee.io/nullsky/2018/09/07/hello-world/</id>
+    <link href="https://huang-wenda.github.io/2018/09/07/hello-world/"/>
+    <id>https://huang-wenda.github.io/2018/09/07/hello-world/</id>
     <published>2018-09-07T01:25:00.000Z</published>
     <updated>2020-11-17T08:03:45.520Z</updated>
     
@@ -159,12 +159,12 @@ System.out.println(&quot;Hello&quot;)&lt;/code&gt;&lt;
     </summary>
     
     
-      <category term="Markdown" scheme="http://wd_huang.gitee.io/nullsky/categories/Markdown/"/>
+      <category term="Markdown" scheme="https://huang-wenda.github.io/categories/Markdown/"/>
     
     
-      <category term="Typora" scheme="http://wd_huang.gitee.io/nullsky/tags/Typora/"/>
+      <category term="Typora" scheme="https://huang-wenda.github.io/tags/Typora/"/>
     
-      <category term="Markdown" scheme="http://wd_huang.gitee.io/nullsky/tags/Markdown/"/>
+      <category term="Markdown" scheme="https://huang-wenda.github.io/tags/Markdown/"/>
     
   </entry>
   

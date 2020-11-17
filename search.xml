@@ -25,6 +25,15 @@
       </tags>
   </entry>
   <entry>
+    <title>my first blog </title>
+    <url>/nullsky/2020/05/07/my-first-blog/</url>
+    <content><![CDATA[<h1 id="第一篇博文"><a href="#第一篇博文" class="headerlink" title="第一篇博文"></a>第一篇博文</h1><pre><code>print("Hello")
+System.out.println("Hello")</code></pre>]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/nullsky/2018/09/07/hello-world/</url>
     <content><![CDATA[<p>Welcome to Hwd’s blog.</p>
@@ -40,29 +49,11 @@
       </tags>
   </entry>
   <entry>
-    <title>my first blog </title>
-    <url>/nullsky/2020/05/07/my-first-blog/</url>
-    <content><![CDATA[<h1 id="第一篇博文"><a href="#第一篇博文" class="headerlink" title="第一篇博文"></a>第一篇博文</h1><pre><code>print("Hello")
-System.out.println("Hello")</code></pre>]]></content>
+    <title>每日java基础题</title>
+    <url>/nullsky/2020/08/23/mei-ri-java-ji-chu-ti/</url>
+    <content><![CDATA[<h1 id="java-专项练习题-2020-08-32"><a href="#java-专项练习题-2020-08-32" class="headerlink" title="java 专项练习题[2020-08-32]"></a>java 专项练习题[2020-08-32]</h1>]]></content>
       <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建虚拟环境遇到的问题(一)</title>
-    <url>/nullsky/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/</url>
-    <content><![CDATA[<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p><strong>安装好系统后开始配置网络,设置静态ip</strong><br>修改 ifcfg-eno33文件:  </p>
-<pre><code>vim /etc/sysconfig/network-scripts/ifcfg-eno33</code></pre><p>内容修改详见底部参考文章<br><strong>编辑完成后重启网络:</strong>  </p>
-<p>关闭 NetworkManger 服务就好了， service NetworkManager stop</p>
-<p><strong>出现错误提示</strong><br>Restarting network (via systemctl): Job for network.service failed because the control process exited with error code.</p>
-<p>See “systemctl status network.service” and “journalctl -xe” for details. [失败]<br><strong>我的解决方法</strong><br>猜测是和NetworkManager 服务有冲突尝试将其关闭解决问题:<br>    关闭 NetworkManger 服务就好了:  </p>
-<pre><code>    service NetworkManager stop</code></pre><p>设置永久有效(禁止开机启动):  </p>
-<pre><code>关闭 NetworkManger 服务就好了， service NetworkManager stop</code></pre><p>此时运行  </p>
-<pre><code>    service NetworkManager stop</code></pre><p>并且</p>
-<pre><code>ifconfig</code></pre><p>可查看设置好得静态ip</p>
-<h5 id="虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程"><a href="#虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程" class="headerlink" title="虚拟环境搭建参考文章: 人手一套Linux环境之：Windows版本教程"></a>虚拟环境搭建参考文章: <a href="https://mp.weixin.qq.com/s/onVwwEQ1DAwbvK7qS2YNxg" target="_blank" rel="noopener">人手一套Linux环境之：Windows版本教程</a></h5>]]></content>
-      <tags>
-        <tag>Linux</tag>
+        <tag>java专项练习</tag>
       </tags>
   </entry>
   <entry>
@@ -98,11 +89,20 @@ System.out.println("Hello")</code></pre>]]></content>
       </tags>
   </entry>
   <entry>
-    <title>每日java基础题</title>
-    <url>/nullsky/2020/08/23/mei-ri-java-ji-chu-ti/</url>
-    <content><![CDATA[<h1 id="java-专项练习题-2020-08-32"><a href="#java-专项练习题-2020-08-32" class="headerlink" title="java 专项练习题[2020-08-32]"></a>java 专项练习题[2020-08-32]</h1>]]></content>
+    <title>搭建虚拟环境遇到的问题(一)</title>
+    <url>/nullsky/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/</url>
+    <content><![CDATA[<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p><strong>安装好系统后开始配置网络,设置静态ip</strong><br>修改 ifcfg-eno33文件:  </p>
+<pre><code>vim /etc/sysconfig/network-scripts/ifcfg-eno33</code></pre><p>内容修改详见底部参考文章<br><strong>编辑完成后重启网络:</strong>  </p>
+<p>关闭 NetworkManger 服务就好了， service NetworkManager stop</p>
+<p><strong>出现错误提示</strong><br>Restarting network (via systemctl): Job for network.service failed because the control process exited with error code.</p>
+<p>See “systemctl status network.service” and “journalctl -xe” for details. [失败]<br><strong>我的解决方法</strong><br>猜测是和NetworkManager 服务有冲突尝试将其关闭解决问题:<br>    关闭 NetworkManger 服务就好了:  </p>
+<pre><code>    service NetworkManager stop</code></pre><p>设置永久有效(禁止开机启动):  </p>
+<pre><code>关闭 NetworkManger 服务就好了， service NetworkManager stop</code></pre><p>此时运行  </p>
+<pre><code>    service NetworkManager stop</code></pre><p>并且</p>
+<pre><code>ifconfig</code></pre><p>可查看设置好得静态ip</p>
+<h5 id="虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程"><a href="#虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程" class="headerlink" title="虚拟环境搭建参考文章: 人手一套Linux环境之：Windows版本教程"></a>虚拟环境搭建参考文章: <a href="https://mp.weixin.qq.com/s/onVwwEQ1DAwbvK7qS2YNxg" target="_blank" rel="noopener">人手一套Linux环境之：Windows版本教程</a></h5>]]></content>
       <tags>
-        <tag>java专项练习</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
 </search>
