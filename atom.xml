@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>huangwd&#39;s blog</title>
+  <title>NullSky</title>
   
   <subtitle>NullSky</subtitle>
   <link href="/huang-wenda.github.io/atom.xml" rel="self"/>
@@ -142,7 +142,7 @@ System.out.println(&quot;Hello&quot;)&lt;/code&gt;&lt;
     <link href="https://huang-wenda.github.io/2018/09/07/hello-world/"/>
     <id>https://huang-wenda.github.io/2018/09/07/hello-world/</id>
     <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2020-11-17T08:03:45.520Z</updated>
+    <updated>2020-11-17T09:58:25.730Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to Hwd’s blog.</p><p>here is nothing</p><p>here will anything</p>]]></content>
     
