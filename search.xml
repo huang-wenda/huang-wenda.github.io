@@ -1,108 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>SSM学习_Mybatis_001</title>
-    <url>/huang-wenda.github.io/2020/08/09/ssm-xue-xi-mybatis-001/</url>
-    <content><![CDATA[<h1 id="Mybatis3"><a href="#Mybatis3" class="headerlink" title="Mybatis3"></a>Mybatis3</h1><h6 id="对于框架的认识不能只停留在使用"><a href="#对于框架的认识不能只停留在使用" class="headerlink" title="对于框架的认识不能只停留在使用"></a><u>对于框架的认识不能只停留在使用</u></h6><h4 id="环境："><a href="#环境：" class="headerlink" title="环境："></a>环境：</h4><ul>
-<li>JDK1.8</li>
-<li>MySQL5.7 <a href="https://www.baidu.com" target="_blank" rel="noopener">(更新5.7方法(待补充))</a></li>
-<li>maven3.6</li>
-<li>IDEA  </li>
-<li>Mybatis3 <a href="https://mybatis.org/mybatis-3/zh/index.html" target="_blank" rel="noopener">(官方文档)</a></li>
-</ul>
-<p><a href="https://github.com/mybatis/mybatis-3" target="_blank" rel="noopener">开源地址</a></p>
-<h4 id="引入项目"><a href="#引入项目" class="headerlink" title="引入项目:"></a>引入项目:</h4><pre class="line-numbers language-xml"><code class="language-xml"><span class="token comment" spellcheck="true">&lt;!-- https://mvnrepository.com/artifact/org.mybatis/mybatis --></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.mybatis<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>mybatis<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>3.5.5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<hr>
-]]></content>
-      <tags>
-        <tag>SSM , Mybatis</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/huang-wenda.github.io/2018/09/07/hello-world/</url>
-    <content><![CDATA[<p>Welcome to Hwd’s blog.</p>
-<p>here is nothing</p>
-<p>here will anything</p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>倒计时</title>
+      <link href="/huang-wenda.github.io/2020/11/24/dao-ji-shi/"/>
+      <url>/huang-wenda.github.io/2020/11/24/dao-ji-shi/</url>
+      
+        <content type="html"><![CDATA[<h4 id="来到西安的第17天"><a href="#来到西安的第17天" class="headerlink" title="来到西安的第17天"></a>来到西安的第<strong>17</strong>天</h4><p>上周末下雪了，想起去年。</p><p>天津。</p><p>另一个陌生的城市，离家不远，离北京不远。</p><p>周围的环境随着时间而愈加熟悉。</p><p>天冷了，供暖了，起霾了，下雪了…</p><hr><p>一年后的现在。</p><p>西安。</p><p>我坐在另一个陌生城市的房子里敲下这些字符。</p><p>来的时候是深秋，树叶还没落完。气温是那种多穿一件热少穿一件冷的状态。</p><p>虽然周围是陌生的环境。却早就习惯了这个感觉。一切都是新鲜的。</p><p>天冷了，供暖了，起霾了，下雪了…</p><hr><p>在天津的时候，感觉生活望不到边。</p><p><strong><em>看脚下一片黑暗，望头顶星光璀璨</em></strong></p><p>不知道那种生活要经历多久，第一次作为一家公司的职员站在这个星球上。</p><p>内心有所不满，又不知道何时会改变，也不知如何可以改变。</p><p>当时也分析了一下，分析了为什么明明现在没有上学时候累，却每天在下班后什么都不想做。</p><p>我觉得是因为上班的日子没有盼头吧，上学终有毕业的那一天，现在再累也会结束。</p><p>上班呢，不知道何时是个头，不知道这样的生活何时是个头。</p><p><strong><em>人生就是等待一个又一个倒计时</em></strong></p><p>工作日每天数着还有几天到周末，还有几天发工资，还有几天到下一个法定节假日…</p><p>不知什么时候结束，也忘了什么时候开始。</p><hr><p>今天，似乎又站在了倒计时上。</p><p>往常一样的期待着周末，期待着工资，期待着假期…</p><p>不同的是我大概知道什么时候会结束，也清楚的记得什么时候开始。</p><p>但还是忍不住浪费时间，即使知道尽头，也没办法每一天在下班过后保持精力。</p><p>做过各种尝试，尝试保持对生活的热情，想想长远的时光。</p><p>人类对于宇宙不过一粒尘埃，此刻对于寿命也不过瞬间。</p><p>即便如此，人类也从未停止对世界的探索，</p><p>就像我从未停止尝试抓住空闲的时间来准备，准备逃跑计划。</p><p>逃到另一个场，受着与此不同的作用力。</p><p><strong><em>盼暖春来。</em></strong></p><p><em>每年寒冬深夜时漫天飞雪</em></p><p><em>深秋时节飘落叶昏黄漫天</em></p><p><em>夏日炎炎时我也没了直觉</em></p><p><em>只盼来年暖春时节鲜花 开遍漫山野</em></p>]]></content>
+      
+      
       <categories>
-        <category>Markdown</category>
+          
+          <category> Markdown </category>
+          
       </categories>
-      <tags>
-        <tag>Typora</tag>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>my first blog </title>
-    <url>/huang-wenda.github.io/2020/05/07/my-first-blog/</url>
-    <content><![CDATA[<h1 id="第一篇博文"><a href="#第一篇博文" class="headerlink" title="第一篇博文"></a>第一篇博文</h1><pre><code>print("Hello")
-System.out.println("Hello")</code></pre>]]></content>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内部类</title>
-    <url>/huang-wenda.github.io/2020/08/10/nei-bu-lei/</url>
-    <content><![CDATA[<h6 id="内部类可以使用外部类的变量-例如"><a href="#内部类可以使用外部类的变量-例如" class="headerlink" title="内部类可以使用外部类的变量,例如:"></a>内部类可以使用外部类的变量,例如:</h6><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Outer</span> <span class="token punctuation">{</span>
-
-    <span class="token keyword">private</span> <span class="token keyword">boolean</span> flag<span class="token punctuation">;</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">Outer</span><span class="token punctuation">(</span><span class="token keyword">boolean</span> f<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">this</span><span class="token punctuation">.</span>flag <span class="token operator">=</span> f<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Inner</span> <span class="token punctuation">{</span>
-        <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>flag<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"I can see Outer's filed"</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h6 id="测试"><a href="#测试" class="headerlink" title="测试:"></a>测试:</h6><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Test</span><span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span>  <span class="token function">main</span> <span class="token punctuation">(</span>String<span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        Outer outer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Outer</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">new</span> <span class="token class-name">Ouger<span class="token punctuation">.</span>Inner</span> inner <span class="token operator">=</span> outer<span class="token punctuation">.</span><span class="token keyword">new</span> <span class="token class-name">Inner</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        inner<span class="token punctuation">.</span><span class="token function">action</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//打印 I can see Outer's filed</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-]]></content>
-      <tags>
-        <tag>JAVA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日java基础题</title>
-    <url>/huang-wenda.github.io/2020/08/23/mei-ri-java-ji-chu-ti/</url>
-    <content><![CDATA[<h1 id="java-专项练习题-2020-08-32"><a href="#java-专项练习题-2020-08-32" class="headerlink" title="java 专项练习题[2020-08-32]"></a>java 专项练习题[2020-08-32]</h1>]]></content>
-      <tags>
-        <tag>java专项练习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>搭建虚拟环境遇到的问题(一)</title>
-    <url>/huang-wenda.github.io/2020/05/09/da-jian-xu-ni-huan-jing-yu-dao-de-wen-ti-yi/</url>
-    <content><![CDATA[<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p><strong>安装好系统后开始配置网络,设置静态ip</strong><br>修改 ifcfg-eno33文件:  </p>
-<pre><code>vim /etc/sysconfig/network-scripts/ifcfg-eno33</code></pre><p>内容修改详见底部参考文章<br><strong>编辑完成后重启网络:</strong>  </p>
-<p>关闭 NetworkManger 服务就好了， service NetworkManager stop</p>
-<p><strong>出现错误提示</strong><br>Restarting network (via systemctl): Job for network.service failed because the control process exited with error code.</p>
-<p>See “systemctl status network.service” and “journalctl -xe” for details. [失败]<br><strong>我的解决方法</strong><br>猜测是和NetworkManager 服务有冲突尝试将其关闭解决问题:<br>    关闭 NetworkManger 服务就好了:  </p>
-<pre><code>    service NetworkManager stop</code></pre><p>设置永久有效(禁止开机启动):  </p>
-<pre><code>关闭 NetworkManger 服务就好了， service NetworkManager stop</code></pre><p>此时运行  </p>
-<pre><code>    service NetworkManager stop</code></pre><p>并且</p>
-<pre><code>ifconfig</code></pre><p>可查看设置好得静态ip</p>
-<h5 id="虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程"><a href="#虚拟环境搭建参考文章-人手一套Linux环境之：Windows版本教程" class="headerlink" title="虚拟环境搭建参考文章: 人手一套Linux环境之：Windows版本教程"></a>虚拟环境搭建参考文章: <a href="https://mp.weixin.qq.com/s/onVwwEQ1DAwbvK7qS2YNxg" target="_blank" rel="noopener">人手一套Linux环境之：Windows版本教程</a></h5>]]></content>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 想说点 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/huang-wenda.github.io/2018/09/07/hello-world/"/>
+      <url>/huang-wenda.github.io/2018/09/07/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to Hwd’s blog.</p><p>here is nothing</p><p>here will anything</p><pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//这是一篇模板文章</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>

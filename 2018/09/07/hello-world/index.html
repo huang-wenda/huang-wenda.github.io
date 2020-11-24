@@ -300,8 +300,8 @@
     (function() {
         let pwd = '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92';
         if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问密码.')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误！');
                 location.href = '/huang-wenda.github.io/';
             }
         }
@@ -386,6 +386,8 @@
                 <p>Welcome to Hwd’s blog.</p>
 <p>here is nothing</p>
 <p>here will anything</p>
+<pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//这是一篇模板文章</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
             </div>
             <hr/>
@@ -626,30 +628,32 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/huang-wenda.github.io/2020/05/07/my-first-blog/">
+                <a href="/huang-wenda.github.io/2020/11/24/dao-ji-shi/">
                     <div class="card-image">
                         
+                        <img src="/huang-wenda.github.io/source/images/3.jpg" class="responsive-img" alt="倒计时">
                         
-                        <img src="/huang-wenda.github.io/medias/featureimages/10.jpg" class="responsive-img" alt="my first blog ">
-                        
-                        <span class="card-title">my first blog </span>
+                        <span class="card-title">倒计时</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            第一篇博文print("Hello")
-System.out.println("Hello")
+                            人生就是在无数个倒计时中度过,以期待结束而结束,以恐惧开始而开始。
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-07
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-24
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Hwd
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/huang-wenda.github.io/categories/Markdown/" class="post-category">
+                                    Markdown
+                                </a>
+                            
                             
                         </span>
                     </div>
@@ -657,8 +661,8 @@ System.out.println("Hello")
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/huang-wenda.github.io/tags/test/">
-                        <span class="chip bg-color">test</span>
+                    <a href="/huang-wenda.github.io/tags/%E6%83%B3%E8%AF%B4%E7%82%B9/">
+                        <span class="chip bg-color">想说点</span>
                     </a>
                     
                 </div>
