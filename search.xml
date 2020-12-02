@@ -1,34 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/huang-wenda.github.io/2018/09/07/hello-world/"/>
-      <url>/huang-wenda.github.io/2018/09/07/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to my blog.</p><p>Here is nothing.</p><p>Here will be anything.</p><pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//这是一篇模板文章</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/huang-wenda.github.io/2018/09/07/hello-world/</url>
+    <content><![CDATA[<p>Welcome to my blog.</p>
+<p>Here is nothing.</p>
+<p>Here will be anything.</p>
+<pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//这是一篇模板文章</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+]]></content>
       <categories>
-          
-          <category> 类别 </category>
-          
+        <category>类别</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> tags </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>tags</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>倒计时</title>
+    <url>/huang-wenda.github.io/2020/11/24/dao-ji-shi/</url>
+    <content><![CDATA[<h4 id="来到西安的第17天"><a href="#来到西安的第17天" class="headerlink" title="来到西安的第17天"></a>来到西安的第<strong>17</strong>天</h4><p>上周末下雪了，想起去年。</p>
+<p>天津。</p>
+<p>另一个陌生的城市，离家不远，离北京不远。</p>
+<p>周围的环境随着时间而愈加熟悉。</p>
+<p>天冷了，供暖了，起霾了，下雪了…</p>
+<hr>
+<p>一年后的现在。</p>
+<p>西安。</p>
+<p>我坐在另一个陌生城市的房子里敲下这些字符。</p>
+<p>来的时候是深秋，树叶还没落完。</p>
+<p>气温是那种多穿一件热少穿一件冷的状态。</p>
+<p>虽然周围是陌生的环境。却早就习惯了这个感觉。一切都是新鲜的。</p>
+<p>天冷了，供暖了，起霾了，下雪了…</p>
+<hr>
+<p>在天津的时候，感觉生活望不到边。</p>
+<p><strong><em>看脚下一片黑暗，望头顶星光璀璨</em></strong></p>
+<p>不知道那种生活要经历多久，第一次作为一家公司的职员站在这个星球上。</p>
+<p>内心有所不满，不知何时改变，也不知如何改变。</p>
+<p>当时也分析了一下，分析了为什么明明没有上学时累，却在下班后什么都不想做。</p>
+<p>可能是因为上班的日子没有盼头吧，上学终有毕业的那一天，再累也会结束。</p>
+<p>上班就，不知何时是个头，不知这样的日子何时是个头。</p>
+<p><strong><em>人生就是等待一个又一个倒计时结束</em></strong></p>
+<p>工作日每天数着还有几天到周末，还有几天发工资，还有几天到下一个法定节假日…</p>
+<p>不知什么时候结束，渐渐忘了哪天开始这样的日子。</p>
+<hr>
+<p>今天，似乎又站在了一个倒计时上。</p>
+<p>一样的期待着周末，期待着工资，期待着假期…</p>
+<p>只是现在知道大概何时结束，也记得什么时候开始。</p>
+<p>但难以自律，忍不住浪费时间，即使知道尽头，也没法在下班过后保持精力和热情。</p>
+<p>做过各种尝试，尝试保持，想想明天，想想未来。</p>
+<p>人类对于宇宙不过尘埃，此刻对于寿命也不过瞬间。</p>
+<p>如此，人类也从未停止对世界的探索，</p>
+<p>就像我从未停止尝试抓住空闲的时间，</p>
+<p>用空闲的时间来准备，</p>
+<p>准备逃跑计划。</p>
+<p>逃到另一个全新的环境，全新的世界。</p>
+<p><strong><em>盼暖春来</em></strong></p>
+<p><em>每年寒冬深夜时漫天飞雪</em></p>
+<p><em>深秋时节飘落叶昏黄漫天</em></p>
+<p><em>夏日炎炎时我也没了直觉</em></p>
+<p><del><em>只盼来年春暖花开时 我真能有改变</em></del></p>
+<p><em>只盼来年暖春时节鲜花 开遍漫山野</em></p>
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>碎语</tag>
+      </tags>
+  </entry>
 </search>
