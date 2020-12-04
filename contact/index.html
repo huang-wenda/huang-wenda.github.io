@@ -29,9 +29,9 @@
 
     <script src="/huang-wenda.github.io/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/huang-wenda.github.io/atom.xml" title="NullSky" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 4.2.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/huang-wenda.github.io/atom.xml" title="NullSky" type="application/atom+xml">
 <link rel="stylesheet" href="/huang-wenda.github.io/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/huang-wenda.github.io/css/prism-line-numbers.css" type="text/css">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
@@ -101,26 +101,23 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/about" class="waves-effect waves-light">
-
+    <a href="/huang-wenda.github.io/about" class="waves-effect waves-light">
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
-      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
-    <ul class="sub-nav menus_item_child ">
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/huang-wenda.github.io/galleries" class="waves-effect waves-light">
       
-      <li>
-        <a href="/huang-wenda.github.io/callMe">
-          
-          <i class="fas fa-eye" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>联系我</span>
-        </a>
-      </li>
+      <i class="fas fa-image" style="zoom: 0.6;"></i>
       
-    </ul>
+      <span>相册</span>
+    </a>
     
   </li>
   
@@ -196,26 +193,23 @@
         
         <li class="m-nav-item">
 	  
-		<a href="javascript:;">
+		<a href="/huang-wenda.github.io/about" class="waves-effect waves-light">
 			
-				<i class="fa-fw fas fa-user-circle"></i>
+			    <i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
-			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
-            <ul  style="background:  ;" >
-              
-                <li>
-
-                  <a href="/huang-wenda.github.io/callMe " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-eye" style="position: absolute;left:50px" ></i>
-			      
-		          <span>联系我</span>
-                  </a>
-                </li>
-              
-            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/huang-wenda.github.io/galleries" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-image"></i>
+			
+			相册
+		</a>
           
         </li>
         
@@ -248,12 +242,20 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['我们像只野马一样在这里流淌','多希望看到不一样的明天'],
-                        startDelay: 100,
+                        strings: [
+                            '战火为何而燃？秋叶为何而落？',
+                            '天性不可夺',
+                            '吾辈心中亦有惑',
+                            '怒拳为谁握',
+                            '护国安邦惩奸恶，道法自然除心魔。',
+                            '战无休而祸不止，吾辈何以为战。'
+
+                        ],
+                        startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
                         backSpeed: 50,
-                        showCursor: true
+                        showCursor: false
                     });
                 </script>
                 
@@ -347,7 +349,7 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=634768552" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 634768552" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=634768552" class="tooltipped" target="_blank" data-tooltip="QQ: 634768552" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
@@ -394,7 +396,7 @@ $(function () {
     </a>
 </div>
 
-
+    <script src="/huang-wenda.github.io/libs/others/cursor.js"></script>
     <script src="/huang-wenda.github.io/libs/materialize/materialize.min.js"></script>
     <script src="/huang-wenda.github.io/libs/masonry/masonry.pkgd.min.js"></script>
     <script src="/huang-wenda.github.io/libs/aos/aos.js"></script>
